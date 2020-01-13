@@ -1,22 +1,8 @@
 ﻿using System;
-using Multiply;
-using Subtract;
-
 
 namespace BasicCalculator
 {
-    public interface IBasicCalculator 
+    public class BasicCalculator
     {
-        public dynamic Time(dynamic a, dynamic b);
-    }
-    public class BasicCalculator : IBasicCalculator, IMultiplying
-    {
-        public dynamic result;
-        Multiplying mul = new Multiplying();
-        public dynamic Time(dynamic a, dynamic b)
-        {
-            result = mul.Time(a, b);
-            return result;
-        }
     }
 }
