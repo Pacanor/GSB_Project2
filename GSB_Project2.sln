@@ -3,23 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{45CAF77F-17B7-4256-BC98-F963CF4B0068}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCalculator", "BasicCalculator\BasicCalculator.csproj", "{45CAF77F-17B7-4256-BC98-F963CF4B0068}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticCalculator", "StatisticCalculator\StatisticCalculator.csproj", "{4FAF4A5D-6F19-43AB-8C6F-2BC8AA861176}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticCalculator", "StatisticCalculator\StatisticCalculator.csproj", "{4FAF4A5D-6F19-43AB-8C6F-2BC8AA861176}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicOps", "BasicOps\BasicOps.csproj", "{F96A0059-84D1-46AF-A64B-129CE2C60D16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOps", "BasicOps\BasicOps.csproj", "{F96A0059-84D1-46AF-A64B-129CE2C60D16}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOps", "StatisticOps\StatisticOps.csproj", "{988F96EB-12AC-46E1-A4F9-E2C82BE2FB0E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGeneratorTests1", "RandomGeneratorTests1\RandomGeneratorTests1.csproj", "{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticOpsTests", "StatisticOpsTests\StatisticOpsTests.csproj", "{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatMean", "StatMean\StatMean.csproj", "{54EE8981-52FF-41BC-AF15-3165E9160309}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatMeanTests", "StatMeanTests\StatMeanTests.csproj", "{ED247A9A-866B-4A46-932C-8AB47DA210A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticOps", "StatisticOps\StatisticOps.csproj", "{988F96EB-12AC-46E1-A4F9-E2C82BE2FB0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,26 +33,6 @@ Global
 		{988F96EB-12AC-46E1-A4F9-E2C82BE2FB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{988F96EB-12AC-46E1-A4F9-E2C82BE2FB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{988F96EB-12AC-46E1-A4F9-E2C82BE2FB0E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54EE8981-52FF-41BC-AF15-3165E9160309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54EE8981-52FF-41BC-AF15-3165E9160309}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54EE8981-52FF-41BC-AF15-3165E9160309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54EE8981-52FF-41BC-AF15-3165E9160309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
