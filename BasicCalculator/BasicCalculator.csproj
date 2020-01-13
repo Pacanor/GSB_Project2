@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Multiply\Multiply.csproj" />
+    <ProjectReference Include="..\Subtract\Subtract.csproj" />
+  </ItemGroup>
+
 </Project>
