@@ -38,6 +38,7 @@ namespace RandomGenerator
             {
                 double temp = random.Next(100) * random.NextDouble();
                 numbers[i] = Math.Round(temp, 2, MidpointRounding.ToEven);
+                i++;
             }
             return numbers;
         }
@@ -49,6 +50,7 @@ namespace RandomGenerator
             while (i < num)
             {
                 numbers[i] = random.Next(100);
+                i++;
             }
             return numbers;
         }
@@ -63,6 +65,7 @@ namespace RandomGenerator
             {
                 double temp = random.Next(minInt, maxInt) * random.NextDouble();
                 numbers[i] = Math.Round(temp, 2, MidpointRounding.ToEven);
+                i++;
             }
             return numbers;
         }
@@ -74,6 +77,7 @@ namespace RandomGenerator
             while (i < num)
             {
                 numbers[i] = random.Next(min, max);
+                i++;
             }
             return numbers;
         }
