@@ -21,7 +21,7 @@ namespace BasicOps
                 c = Quotient(c, a);
             }
             double d2 = c * arrayA[0];
-            double d = Helpers.Rounding.RoundTo2(d2);
+            double d = Math.Round(d2, 2, MidpointRounding.ToEven);
             return d;
         }
 
