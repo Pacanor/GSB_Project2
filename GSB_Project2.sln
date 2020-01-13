@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOps", "StatisticOp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{FE3D14CF-9AE5-4EC2-8A52-BE9A512540CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGeneratorTests1", "RandomGeneratorTests1\RandomGeneratorTests1.csproj", "{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGeneratorTests1", "RandomGeneratorTests1\RandomGeneratorTests1.csproj", "{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOpsTests", "BasicOpsTests\BasicOpsTests.csproj", "{5AAE4525-F325-4B92-B95C-B9D66CD170A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAE4525-F325-4B92-B95C-B9D66CD170A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAE4525-F325-4B92-B95C-B9D66CD170A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAE4525-F325-4B92-B95C-B9D66CD170A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAE4525-F325-4B92-B95C-B9D66CD170A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
