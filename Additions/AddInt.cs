@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicOps
+namespace Additions
 {
     public interface ISum
     {
         public dynamic Add(dynamic a, dynamic b);
     }
+
 }

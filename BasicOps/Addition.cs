@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicOps
+namespace Additions
 {
     public class Addition
     {
@@ -11,17 +11,14 @@ namespace BasicOps
             return a + b;
         }
 
-
         public static dynamic Sum(dynamic arrayA)
         {
             dynamic c = 0;
-
             foreach (dynamic a in arrayA)
             {
                 c = Sum(a, c);
             }
             return c;
         }
-
     }
 }

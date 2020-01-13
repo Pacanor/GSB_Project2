@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BasicOps;
+using Additions;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BasicOps.Tests
+namespace Additions.Tests
 {
     [TestClass()]
     public class AdditionTests
@@ -21,7 +21,6 @@ namespace BasicOps.Tests
         {
             int c = Addition.Sum(a, b);
             Assert.AreEqual(30, c);
-
         }
 
         [TestMethod()]
