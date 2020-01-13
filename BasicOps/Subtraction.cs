@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BasicOps
 {
-    class Subtraction
+    public class Subtraction
     {
     }
 }
