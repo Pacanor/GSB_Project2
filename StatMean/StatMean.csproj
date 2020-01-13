@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Multiply\Multiply.csproj" />
-    <ProjectReference Include="..\Subtract\Subtract.csproj" />
+    <ProjectReference Include="..\StatisticOps\StatisticOps.csproj" />
   </ItemGroup>
 
 </Project>
