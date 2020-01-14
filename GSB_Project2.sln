@@ -15,11 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGenerator", "RandomGe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGeneratorTests1", "RandomGeneratorTests1\RandomGeneratorTests1.csproj", "{DDF6C79D-2702-43C2-ACFC-2B3B6B61F872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticOpsTests", "StatisticOpsTests\StatisticOpsTests.csproj", "{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatisticOpsTests", "StatisticOpsTests\StatisticOpsTests.csproj", "{A4BC2AEE-746E-4E9B-B18B-E69B620C8BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatMean", "StatMean\StatMean.csproj", "{54EE8981-52FF-41BC-AF15-3165E9160309}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatMean", "StatMean\StatMean.csproj", "{54EE8981-52FF-41BC-AF15-3165E9160309}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatMeanTests", "StatMeanTests\StatMeanTests.csproj", "{ED247A9A-866B-4A46-932C-8AB47DA210A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatMeanTests", "StatMeanTests\StatMeanTests.csproj", "{ED247A9A-866B-4A46-932C-8AB47DA210A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Helpers", "Helpers\Helpers.csproj", "{6A7CB028-23B8-4FCA-9F28-9F49D469B96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "Subtract\Subtract.csproj", "{16ACACFA-5BEC-4A1E-9A54-CA5F9EEA6F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiply", "Multiply\Multiply.csproj", "{BDB2EA70-C391-4F38-8922-8DEAA23E5FF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplyTests", "MultiplyTests\MultiplyTests.csproj", "{7EE7F3E6-2204-4D0B-BCF3-85DBB5F612EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicOpsTests", "BasicOpsTests\BasicOpsTests.csproj", "{756E1A41-8BE7-47D9-8991-F3CC88C52EFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +73,26 @@ Global
 		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED247A9A-866B-4A46-932C-8AB47DA210A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7CB028-23B8-4FCA-9F28-9F49D469B96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7CB028-23B8-4FCA-9F28-9F49D469B96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7CB028-23B8-4FCA-9F28-9F49D469B96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7CB028-23B8-4FCA-9F28-9F49D469B96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ACACFA-5BEC-4A1E-9A54-CA5F9EEA6F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ACACFA-5BEC-4A1E-9A54-CA5F9EEA6F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ACACFA-5BEC-4A1E-9A54-CA5F9EEA6F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ACACFA-5BEC-4A1E-9A54-CA5F9EEA6F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB2EA70-C391-4F38-8922-8DEAA23E5FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB2EA70-C391-4F38-8922-8DEAA23E5FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB2EA70-C391-4F38-8922-8DEAA23E5FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB2EA70-C391-4F38-8922-8DEAA23E5FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE7F3E6-2204-4D0B-BCF3-85DBB5F612EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE7F3E6-2204-4D0B-BCF3-85DBB5F612EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE7F3E6-2204-4D0B-BCF3-85DBB5F612EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE7F3E6-2204-4D0B-BCF3-85DBB5F612EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756E1A41-8BE7-47D9-8991-F3CC88C52EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756E1A41-8BE7-47D9-8991-F3CC88C52EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756E1A41-8BE7-47D9-8991-F3CC88C52EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756E1A41-8BE7-47D9-8991-F3CC88C52EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
