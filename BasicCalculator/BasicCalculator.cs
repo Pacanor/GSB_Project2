@@ -1,19 +1,22 @@
 ﻿using System;
 using Multiply;
+using SquareI;
 
 namespace BasicCalculator
 {
-    public interface IBasicCalculator 
-    {
-        public dynamic Time(dynamic a, dynamic b);
-    }
-    public class BasicCalculator : IBasicCalculator, IMultiplying
+    public class BasicCalculator : IBasicCalculator, IMultiplying, ISquared1
     {
         public dynamic result;
-        Multiplying mul = new Multiplying();
+        private readonly Multiplying Mul = new Multiplying();
+        private readonly Squared1 Square = new Squared1();
         public dynamic Time(dynamic a, dynamic b)
         {
-            result = mul.Time(a, b);
+            result = Mul.Time(a, b);
+            return result;
+        }
+        public dynamic Squarea(dynamic a)
+        {
+            result = Square.Squarea(a);
             return result;
         }
     }

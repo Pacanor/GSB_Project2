@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-
-namespace BasicCalculator
+namespace Multiply
 {
-    public interface IBasicCalculator
+    public interface IMultiplying
     {
         public dynamic Time(dynamic a, dynamic b);
-        public dynamic Squarea(dynamic a);
     }
 }

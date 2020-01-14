@@ -3,10 +3,7 @@ using BasicOps;
 
 namespace Multiply
 {
-    public interface IMultiplying
-    {
-        public dynamic Time(dynamic a, dynamic b);
-    }
+   
     public class Multiplying : IMultiplying
     {
         public dynamic result;
