@@ -4,7 +4,7 @@ using SquareI;
 using Subtract;
 namespace BasicCalculator
 {
-    public class BasicCalculator : IBasicCalculator, IMultiplying, ISquared1,ISubtractby
+    public class BasicCalculator : IBasicCalculator, IMultiplying, ISubtractby, ISquared1
     {
         public dynamic result;
         private readonly Multiplying Mul = new Multiplying();

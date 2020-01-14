@@ -6,6 +6,7 @@ namespace Subtract
 {
     public interface ISubtractby
     {
+       
         public dynamic Subtracted(dynamic a, dynamic b);
     }
 }
