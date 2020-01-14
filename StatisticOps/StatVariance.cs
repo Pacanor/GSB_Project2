@@ -12,7 +12,7 @@ namespace StatisticOps
         {
 
             dynamic theMean = StatMean.Mean(arrayA);
-            dynamic arrayCount_1 = Helpers.Array.Length(arrayA) - 1;
+            int arrayCount_1 = Helpers.Array.Length(arrayA) - 1;
 
             dynamic squares = new Array[0];
             dynamic squareSum = 0.0;
