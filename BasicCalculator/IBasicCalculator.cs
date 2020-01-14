@@ -11,5 +11,7 @@ namespace BasicCalculator
         public dynamic Time(dynamic a, dynamic b);
         public dynamic Squarea(dynamic a);
         public dynamic Subtracted(dynamic a, dynamic b);
+        public dynamic SquareRoot(dynamic a);
+        public dynamic Cubed(dynamic a);
     }
 }
