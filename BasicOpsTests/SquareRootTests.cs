@@ -12,11 +12,12 @@ namespace BasicOps.Tests
         private readonly int h = 144;
         private readonly double i = 2.25;
         private readonly double[] arrayC = { 1.44, 6.25, 38.44 };
+        private readonly int[] arrayD = { 9, 6, 16, 4 };
 
         [TestMethod()]
         public void SqrRootIntTest()
         {
-            int c = SquareRoot.Root(h);
+            double c = SquareRoot.Root(h);
             Assert.AreEqual(12, c);
         }
 
@@ -26,6 +27,17 @@ namespace BasicOps.Tests
             Assert.AreEqual(1.5, c);
         }
 
+        [TestMethod()]
+        public void SqrRootArrayTest()
+        {
+            double[] x = { 3, 2.45, 4, 2 };
+            double[] c = SquareRoot.Root(arrayD);
+            for (int i = 0; i < c.Length; i++)
+            {
+                Assert.AreEqual(x[i], c[i]);
+            }
+
+        }
 
         [TestMethod()]
         public void SqrRootDoubleArrayTest()
