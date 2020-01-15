@@ -30,13 +30,13 @@ namespace BasicOps.Tests
         [TestMethod()]
         public void MultiplyTest2()
         {
-            Assert.AreEqual(18.92, BasicOps.Multiplication.Multiply(arrayA));
+            Assert.AreEqual(562.5, Multiplication.Multiply(arrayA));
         }
 
         [TestMethod()]
         public void MultiplyTest3()
         {
-            Assert.AreEqual(18.92, BasicOps.Multiplication.Multiply(arrayB));
+            Assert.AreEqual(18.92, Multiplication.Multiply(arrayB));
         }
     }
 }
